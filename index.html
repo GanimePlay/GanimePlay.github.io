@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    :root{
+      font-family: 'Outfit', sans-serif;
+    }
+
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: hsl(212, 45%, 89%);
+    }
+    .com-carta{
+      width: 280px;
+      height: fit-content;
+      padding: 15px;
+      border-radius: 20px;
+      background-color: hsl(0, 0%, 100%);
+    }
+    .com-carta img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+    .com-carta div{
+      padding: 0 12px;
+      text-align: center;
+    }
+    .com-carta h3{
+      color: hsl(218, 44%, 22%);
+      font-weight: 700;
+      font-size: 21px;
+    }
+    .com-carta p{
+      color: hsl(220, 15%, 55%);
+      font-weight: 400;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="com-carta">
+    <img src="images\image-qr-code.png" alt="Coding-QR">
+    <div>
+      <h3>Improve your front-end skrills by building projects</h3>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+</body>
+</html>
